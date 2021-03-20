@@ -1,0 +1,163 @@
+
+   #fundo {
+    background: blanchedalmond;
+    width: 500px ;
+margin-right: 10px;
+padding-right: 150px; /*largura da borda branca*/
+padding-left: 100px;
+border-radius: 90px;
+border: dashed coral ;
+cursor: pointer  ;
+box-shadow:0px 0px 30px 10px rgba(0,0,0,0.41); ;;
+}
+
+body {
+  font-size: 18px;
+}
+
+.caixa11 {
+display: flex;
+margin-top: 20px;
+margin-left: 60px;
+
+}
+
+.caixa111{
+  margin-left: 80px;
+   display: flex;
+}
+
+
+#caixa22{
+ display: flex;
+ margin-top: 20px;
+ margin-left: 60px;
+
+
+}
+
+
+  
+.caixa3{
+  margin-left: 30px;
+  margin-left: 80px;
+
+}
+
+
+
+
+
+#simnao {
+  display: flex;
+  margin-left: 60px;
+
+  
+ 
+}
+
+.ssnn{
+  margin-top: 30px;
+  margin-left: 60px;
+
+
+
+}
+
+
+.SN {
+  margin-left: 300px;
+
+  
+}
+
+#rede{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+
+}
+.rede11{
+margin-left: 80px;
+}
+
+#telefone0{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 60px;
+
+}
+
+.cell{
+  margin-left: 80px;
+}
+
+.ffmm {
+  display: flex;
+  margin-left: 60px;
+
+  
+ 
+}
+
+.fffmm{
+  margin-left: 250px;
+}
+
+.sexoo{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#pc{
+  display: flex;
+  margin-top: 20px;
+}
+.pc11{
+ margin-left: 30px;
+}
+
+#be{
+  display: flex;
+  margin-top: 20px;
+}
+
+.be11{
+  margin-left: 30px;
+}
+
+#enviar{
+  margin-top: 45px;
+  text-align: center;
+  cursor: pointer  ;
+  margin-bottom: 50px;
+  box-shadow:0px 0px 50px 10px rgba(0,0,0,0.41); ;;
+}
+ 
+#imagenn{
+  margin-left: 140px;
+  margin-right: 130px;
+  border: dashed coral ;
+  cursor: pointer  ;
+  box-shadow:0px 0px 50px 10px rgba(0,0,0,0.41); ;;
+  margin-top: 50px ;
+  
+}
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+  h3{
+   text-align: center;
+  }

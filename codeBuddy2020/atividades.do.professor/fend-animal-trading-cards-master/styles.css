@@ -1,0 +1,27 @@
+/* add your CSS here */
+img{
+    width: 300px;
+}
+
+body {
+    border-width: 6px 6px 6px 6px; 
+    border-style: solid ; 
+    border-color: #000 #000 #900 #900;
+    display: flex;
+    flex-direction: row;
+    background: rgb(240, 217, 221);
+    width: 500px;
+    height: 800px
+
+    
+}
+
+.dog {
+   
+width: 500px;
+height: 250px;
+
+display: flex;
+flex-direction: row;
+background: pink;
+}

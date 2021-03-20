@@ -1,0 +1,38 @@
+.txt {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    line-height: 200px;
+}
+.txt1 {
+    background-color: red;
+    position: absolute;
+
+}
+.txt2{
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50% ;
+    transform:translate(-50%, -50%); /*Essa propriedade movimenta o elemento 50% do seu tamanho no eixo x e y */ 
+
+}
+.txt3{
+    background-color: purple;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; 
+}
+.txtf{
+    background-color: black;
+    width: 100px ;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}

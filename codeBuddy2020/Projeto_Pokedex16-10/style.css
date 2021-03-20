@@ -1,0 +1,121 @@
+body {
+    background: whitesmoke;
+    display: inline-block;
+    margin: 12px 12px 12px 12px;
+  
+
+}
+
+img {
+    margin: 5px 5px 5px 5px;
+}
+#txt {
+    padding-left: 3px;
+    margin: 20px;
+}
+
+#cx1 {
+    border:solid rgb(1, 165, 42);  
+    width: 420px; 
+    position: absolute;
+    
+
+    
+    
+}
+#cx2{
+    border: solid orangered;
+    width: 420px;
+    position: absolute;
+    margin-left: 450px;
+    
+
+    
+}
+#cx3{
+    border: solid rgb(3, 191, 238);
+    width: 420px;
+    position: absolute;
+    margin-left: 900px;
+    
+   
+}
+
+
+
+.cx20 {
+    border: solid rgb(177, 241, 80);
+    margin: 8px;
+    text-align: justify;
+
+   
+    
+}
+.cx21 {
+    border: solid rgb(177, 241, 80);
+    margin: 8px;
+    text-align: justify;
+}
+.cx22 {
+    border: solid rgb(177, 241, 80);
+    margin: 8px;
+    text-align: justify;
+}
+.cx30 {
+    border: solid rgb(243, 176, 52);
+    margin: 8px;
+    text-align: justify;
+}
+.cx31 {
+    border: solid rgb(243, 176, 52);
+    margin: 8px;
+    text-align: justify;
+}
+.cx32{
+    border: solid rgb(243, 176, 52);
+    margin: 8px;
+    text-align: justify;
+}
+.cx40{
+    border: solid rgb(111, 192, 238); 
+    margin: 8px;
+    text-align: justify;
+}
+.cx41{
+    border: solid rgb(111, 192, 238);
+    margin: 8px;
+    text-align: justify;
+}
+.cx42{
+    border: solid rgb(111, 192, 238);
+    margin: 8px;
+    text-align: justify;
+}
+
+.P1 {
+    display: flex;
+}
+.P2{
+    display: flex;
+}
+.P3{
+    display: flex;
+}
+.P4{
+    display: flex;
+}
+.P5{
+    display: flex;
+}
+.P6{
+    display: flex;
+}
+.P7{
+    display: flex;
+}
+.P8{
+    display: flex;
+}
+.P9{
+    display: flex;
+}

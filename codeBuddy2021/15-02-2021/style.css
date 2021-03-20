@@ -1,0 +1,119 @@
+body{
+    background:white;
+   
+} 
+
+
+
+#GLOBAL{
+    height: 600px;
+    width: 950px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#cadastre-se{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#dados{
+    background: rgb(236, 235, 235);
+    border: rgb(31, 30, 30) solid  ;
+    align-items: center;
+    margin: 3px;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#quadrante1{
+    border: solid rgb(63, 62, 62);
+    
+    margin: 3px;
+    padding: 10px 10px 20px 10px;
+}
+    
+#qdiv1{
+    display: flex;
+
+}
+
+/*margin- right espaçamento entre os input*/
+#q1{
+    margin-right: 20px;
+}
+#q2{
+    margin-right: 20px;
+}
+#q3{
+    margin-right: 20px;
+}
+#q4{
+    margin-left: 20px;
+    
+}
+
+#quadrante2{
+    border: solid rgb(63, 62, 62);
+    margin: 3px;
+    padding: 0px 10px 5px 10px;
+    
+
+}
+.div2{
+    display: flex;
+}
+
+#q5{
+    margin-right: 30px;
+}
+#q6{
+    margin-right: 30px;
+}
+#q7{
+    margin-right:75px;
+}
+#q8{
+    margin-right: 75px;
+}
+#q9{
+    margin-right: 30px;
+}
+#q10{
+    margin-right: 70px;
+}
+#q11{
+    margin-right: 75px;
+}
+#q12{
+    margin-right: 30px;
+}
+#q13{
+    margin-right: 70px;
+}
+#q14{
+    margin-right: 75px;
+}
+#q15{
+    margin-right: 30px;
+}
+#q16{
+    margin-right: 70px;
+}
+#q17{
+    margin-right: 75px;
+}
+#botao{
+    width: 350px;
+    
+    margin-left:270px;
+    margin-top:10px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #bdb9ab;
+    font-size: 16px;
+}

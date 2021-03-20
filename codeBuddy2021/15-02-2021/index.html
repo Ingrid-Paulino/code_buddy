@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+    <div id="GLOBAL">
+
+        <h1 id="cadastre-se" style="color: rgb(95, 107, 95);">CADASTRE-SE</h1>
+        <hr />
+
+        <div id="dados">
+            <p>Dados de Login</p>
+        </div>
+
+        <div id="quadrante1">
+
+            <form name="cadastro">
+                <label for="cpf">CPF</label><br>
+                <input type="text" style="width:250px; height:25px;" id="inCpf">
+                <br>
+
+                <div id="qdiv1">
+                    <div id="q1">
+                        <label for="email" class="p1">E-mail</label><br>
+                        <input type="email" style="width:250px; height:25px;" id="inEmail" class="p1"><br>
+                    </div>
+
+                    <div id="q2">
+                        <label for="confirmar" class="p2">Confirmar</label><br>
+                        <input type="email" style="width:250px; height:25px;" id="confirmar" class="p2"
+                            id="confirm_email"><br>
+                    </div>
+
+                    <div id="q3">
+                        <label for="senha" class="p3">Senha</label><br>
+                        <input type="password" style="width:150px; height:25px;" name="senha" id="inSenha" class="p3"><br>
+                    </div>
+
+                    <div id="q4">
+                        <label for="confirmar" class="p4">Confirmar</label><br>
+                        <input type="password" style="width:150px; height:25px;" id="confirm_password" class="p4"><br>
+                    </div>
+                </div>
+        </div>
+
+        <div id="dados">
+            <p>Dados de Contato</p>
+        </div>
+        <div id="quadrante2">
+
+            <div class="div2">
+                <div id="q5">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" style="width:435px; height:25px;" id="nome"><br>
+                </div>
+
+                <div id="q6">
+                    <label for="snome">Sobrenome</label><br>
+                    <input type="text" style="width:435px; height:25px;" id="snome"><br>
+                </div>
+            </div>
+            <div class="div2">
+                <div id="q7">
+                    <label for="nascimento">Nascimento<br>
+                        <input type="date" style="width:250px; height:25px;" id="nascimento"><br>
+                </div>
+
+                <div id="q8">
+                    <label for="rg">RG</label><br>
+                    <input type="text" style="width:250px; height:25px;" id="rg"><br>
+                </div>
+
+                <div id="q9">
+                    <label for="sexo"> Sexo</label><br>
+                    <select class="form-control" style="width:250px; height:31px;" id="sexo">
+                        <option value="nada"></option>
+                        <option value="F">Feminino</option>
+                        <option value="M">Masculino</option>
+                        <option value="O">Não binária</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="div2">
+                <div id="q10">
+                    <label for="cep">CEP</label> <br>
+                    <input type="text" style="width:250px; height:25px;" id="cep"><br>
+                </div>
+                <div id="q11">
+                    <label for="endereco">Endereço</label><br>
+                    <input type="text" style="width:250px; height:25px;" id="endereco"><br>
+                </div>
+                <div id="q12">
+                    <label for="num">N°</label><br>
+                    <input type="text" style="width:190px; height:25px;" id="num"><br>
+                </div>
+            </div>
+            <div class="div2">
+                <div id="q13">
+                    <label for="bairro">Bairro</label><br>
+                    <input type="text" style="width:250px; height:25px;" id="bairro"><br>
+                </div>
+                <div id="q14">
+                    <label for="complemento">Complemento</label><br>
+                    <input type="text" style="width:250px; height:25px;" id="complemento"><br>
+                </div>
+                <div id="q15">
+                    <label for="cidade">Cidade</label><br>
+                    <input type="text" style="width:250px; height:25px;" id="cidade"><br>
+                </div>
+            </div>
+            <div class="div2">
+                <div id="q16">
+                    <label for="estado">Estado</label><br>
+                    <select class="form-control" style="width:260px; height:25px;" id="estado"><br>
+                        <option value=""></option>
+                        <option value="">Acre</option>
+                        <option value="">Alagoas</option>
+                        <option value="">Amapá</option>
+                        <option value="">Amazonas</option>
+                        <option value=""> Bahia</option>
+                        <option value="">Ceará</option>
+                        <option value="">Espírito Santo</option>
+                        <option value="">Goiás</option>
+                        <option value="">Maranhão</option>
+                        <option value="">Mato Grosso</option>
+                        <option value="">Mato Grosso do Sul</option>
+                        <option value="">Minas Gerais</option>
+                        <option value="">Pará</option>
+                        <option value="">Paraíba</option>
+                        <option value=""> Paraná</option>
+                        <option value="">Pernambuco</option>
+                        <option value="">Piauí</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value=""> Rio Grande do Norte</option>
+                        <option value="">Rio Grande do Sul</option>
+                        <option value="">Rondônia</option>
+                        <option value="">Roraima</option>
+                        <option value="">Santa Catarina</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Sergipe</option>
+                        <option value="">Tocantins</option>
+                        <option value="">Distrito Federal</option>
+                    </select><br>
+                </div>
+                <div id="q16">
+                    <label for="tel">DDD+Telefone</label><br>
+                    <input type="tel" style="width:250px; height:25px;" id="tel"><br>
+                </div>
+                <div id="q17">
+                    <label for="cel">DDD+Celular</label><br>
+                    <input type="number" style="width:250px; height:25px;" id="cel"><br>
+                </div>
+            </div>
+            <button id="botao" onclick="clicar()">ENVIAR</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

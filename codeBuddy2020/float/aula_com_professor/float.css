@@ -1,0 +1,27 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+}
+.txt1 {
+    background-color: purple;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.txt2 {
+    background-color: red;
+    text-align: center;
+    line-height:200px ;
+    float: right;
+    margin-left: 10px;
+    
+}
+.paragrafo {
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}

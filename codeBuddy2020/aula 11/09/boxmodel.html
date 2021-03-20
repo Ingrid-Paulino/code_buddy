@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box_Model</title>
+    <style>
+      html {
+  box-sizing: border-box;
+}
+  *, *:before, *:after {
+  box-sizing: inherit;
+}
+   .container {
+  height: 300px;
+  background: #f2f2f2;
+}
+.box {
+  float: left;
+  width: 50%;
+  padding: 5%;
+  background: red;
+  color: #fff;
+  
+}
+.box:last-child {
+  background: green;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+  <div class="box">BOX 1</div>
+  <div class="box">BOX 2</div>
+</div>
+</body>
+</html>
